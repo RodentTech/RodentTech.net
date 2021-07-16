@@ -2,3 +2,8 @@ July 14th
 Today we were busy with the business license, about to consult the lawyer at 8:30pm regarding the BE-13 and busiess license issues. Also we have made a new business account from Bank of America.
 I am planning to start designing the infrastructure of the company website. And I need to decide what technology stacks I should use. Till now, what I believe that I need is Spring Boot, Spring Cloud, Hibernate and RabbitMQ.
 For building a local github repository, we need to first use git init, then use git clone, and then git fetch to build the connections between local side and github side. And so is done.
+
+July 15th
+What we know for now is that probably we do not need to file the BE-13 because I did not see any official files from California or City of Santa Clara requirements about it, and only one people posted things related to it. 
+Yesterday we have submitted the application for the business license in city of Santa Clara. According to the official information, we might need to wait for up to 8 weeks for it. 
+Now what we need to do next is to build our website and buy some official tools maybe. And specifically next week we are gonna finish the build of the website at best.
