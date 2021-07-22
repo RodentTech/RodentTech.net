@@ -5,3 +5,6 @@ The current job is to choose a plan to fulfill our website and start creating ou
 July 20th, 2021, Tuesday
 I have been checking and searching for resources of website templates. The Wix seems just fine, and its price seems acceptable. However, it seems there still exists some issues for me to access the website from Zenbusiness, maybe because of the authority issues. So what I am going to do now is to contact Zenbusiness's server and try to solve this problem and then build this website by myself or using a template, which depends on the team. 
 And also we just formally enabled our business bank account and there is 900$ inside. We do not want to pay for the execution fee but the lowest amount of deposit to absolve is quite large, so the final amount is just 900$.
+
+July 21th, 2021, Wednesday
+Everything is in place now. After discussion with teammates and other coworkers, I have decided to postpone the process of building the website but to prepare for the mechanical consultation for several days. However, it is still necessary and essential to design and build our databases right now because we need to record everything and all the information accordingly and safely. Under our circumstances, I believe MySQL would be the best choice. But whether to use NoSQL or SQL still remains to be discussed and we need to collect more information for that. 
