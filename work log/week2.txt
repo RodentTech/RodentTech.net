@@ -8,3 +8,6 @@ And also we just formally enabled our business bank account and there is 900$ in
 
 July 21th, 2021, Wednesday
 Everything is in place now. After discussion with teammates and other coworkers, I have decided to postpone the process of building the website but to prepare for the mechanical consultation for several days. However, it is still necessary and essential to design and build our databases right now because we need to record everything and all the information accordingly and safely. Under our circumstances, I believe MySQL would be the best choice. But whether to use NoSQL or SQL still remains to be discussed and we need to collect more information for that. 
+
+July 22th, 2021, Thursday
+I have been thinking through it and I believe for our website it is not very hard to transfer the persistance level from MySQL to MongoDB if necessary, because our data size is limited and we probably do not need to figure out multiple rules to keep them. And MySQL is much eaiser to maintain. So today I learned and wrote some basic JDBC(Java DataBase Connectivity) codes and uploaded them. For tomorrow and next week, probably I need to keep writing backend codes until they started their OPT so we can discuss about how to build our front pages.
