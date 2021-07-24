@@ -11,3 +11,6 @@ Everything is in place now. After discussion with teammates and other coworkers,
 
 July 22th, 2021, Thursday
 I have been thinking through it and I believe for our website it is not very hard to transfer the persistance level from MySQL to MongoDB if necessary, because our data size is limited and we probably do not need to figure out multiple rules to keep them. And MySQL is much eaiser to maintain. So today I learned and wrote some basic JDBC(Java DataBase Connectivity) codes and uploaded them. For tomorrow and next week, probably I need to keep writing backend codes until they started their OPT so we can discuss about how to build our front pages.
+
+July 23th, 2021, Friday
+Today I have made a decision that I should probably write the sorting algorithm of the database by myself because the internal algorithms cannot fit our requirements. So I have written the code of quick sort, which is one of the most common sort algorithms in the market.
