@@ -1,5 +1,7 @@
 package util;
 
+import java.util.HashMap;
+
 public class DatabaseSortLogic {
     //Here we implement several sorting logic algorithms that can be applied to the database
     //This is the quickSort. It is one of the best sorting algorithm under large no-pattern data
@@ -32,4 +34,8 @@ public class DatabaseSortLogic {
 
         return i + 1;
     }
+
+    HashMap<String, Integer> map = new HashMap<>();
+    HashMap<Integer, String> hm2 = new HashMap<Integer, String>();
+
 }
