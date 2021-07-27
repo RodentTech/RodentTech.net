@@ -1,0 +1,2 @@
+July 26th, Monday
+Today I have started to build the cache part for the database. The initial algorithm I plan to use is LFU(Least Recently Used), which means whenever I need to extract a random element from the database, or push an element into the reading queue, I would choose by LFU. However, this LFU still has some problems and there still exists some better solutions. I will continue studying and working on it tomorrow.
