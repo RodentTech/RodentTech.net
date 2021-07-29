@@ -3,3 +3,6 @@ Today I have started to build the cache part for the database. The initial algor
 
 July 27th, Tuesday
 Today I implemented another idea of database cache, which is LRU(Least Recently Uses). Using LRU, this is to extract the random element when there the data there is too large and we cannot get the data fast enough within O(n) time. Because for a predictable future, we might need to be ready for it.
+
+July 28th, Wednesday
+Today I uploaded some simple change to the LRU, including some comments and some codestyle. For the rest days of this week, I will try to make this version better and more stable under high request per second.
