@@ -6,3 +6,6 @@ Today I implemented another idea of database cache, which is LRU(Least Recently 
 
 July 28th, Wednesday
 Today I uploaded some simple change to the LRU, including some comments and some codestyle. For the rest days of this week, I will try to make this version better and more stable under high request per second.
+
+July 29th, Thursday
+This morning I have received a call from Virginia, which can be seemed as our first customer, even though it was not for mechanical consulting services. He asked whether we are doing pest control field of work and he told me he saw the contacts of mine from a Virginia community website which I am not sure about that. I did not ask him much about this. What I know now is that our company has already had its first call and it is very inspiring.
