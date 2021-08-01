@@ -9,3 +9,6 @@ Today I uploaded some simple change to the LRU, including some comments and some
 
 July 29th, Thursday
 This morning I have received a call from Virginia, which can be seemed as our first customer, even though it was not for mechanical consulting services. He asked whether we are doing pest control field of work and he told me he saw the contacts of mine from a Virginia community website which I am not sure about that. I did not ask him much about this. What I know now is that our company has already had its first call and it is very inspiring.
+
+July 31th, Saturday
+It is another hot day in California. Today I bought new monitors and laptops for Rodent Tech LLC. Also I have made a little study about Python Flask and Django. As I plan to build the website and before that I will finish the structure of our database, I still have time and wait for their OPT to start and we can discuss and build this website together. For now, I still think Spring Boot and Spring Cloud are the most convenient framework for out website in the future. But Python can be fast and easy to implement within a short time.
