@@ -12,3 +12,6 @@ This morning I have received a call from Virginia, which can be seemed as our fi
 
 July 31th, Saturday
 It is another hot day in California. Today I bought new monitors and laptops for Rodent Tech LLC. Also I have made a little study about Python Flask and Django. As I plan to build the website and before that I will finish the structure of our database, I still have time and wait for their OPT to start and we can discuss and build this website together. For now, I still think Spring Boot and Spring Cloud are the most convenient framework for out website in the future. But Python can be fast and easy to implement within a short time.
+
+August 2th, Monday
+I have been learning knowledge about HTML, CSS and JavaScript. My plan is to construct a full stack website by our team in the future. And what I did today is I built an algorithm for potential business resource distribution under mass need of requirements.
