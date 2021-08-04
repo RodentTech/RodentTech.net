@@ -1,0 +1,2 @@
+Aug 3th, Tuesday
+Today I wrote some code about the merge function for database. This function is used to merge items and customer information when the need is too large and we can remove duplicates and thus save space.
