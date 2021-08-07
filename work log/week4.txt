@@ -3,3 +3,6 @@ Today I wrote some code about the merge function for database. This function is 
 
 Aug4th, Wednesday
 Today I have read information about Spring Boot and I believe it might be a good choice for our website project. Spring Boot supports for dynamic updating for our website and easy coding. Also it has compact secure mechanism so we do not have to worry about being hacked by attakcers and maybe even spend extra money to hire safety teams to protect our company.
+
+Aug 6th, Friday
+Today I have learned more knowledge about Spring Boot. In Spring Boot we need dependence injection and set several XML files as our cold-update files. And also we need Spring Boot to design and build our RESTful APIs. I have thought about the APIs that we might need to apply in the future. We might need to getConsulations, getOrders, getUserInformation and etc. For building this we need to apply Gradle 4 and Spring Tool Suite(STS).
