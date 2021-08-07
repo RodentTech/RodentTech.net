@@ -37,19 +37,18 @@ public class DatabaseSortLogic {
 
     HashMap<String, Integer> map = new HashMap<>();
     HashMap<Integer, String> hm2 = new HashMap<Integer, String>();
-    void merge(int arr[], int l, int m, int r)
+    private void merge(int[] arr, int l, int m, int r)
     {
         // Find sizes of two subarrays to be merged
         int n1 = m - l + 1;
         int n2 = r - m;
 
         /* Create temp arrays */
-        int L[] = new int[n1];
-        int R[] = new int[n2];
+        int[] L = new int[n1];
+        int[] R = new int[n2];
 
         /*Copy data to temp arrays*/
-        for (int i = 0; i < n1; ++i)
-            L[i] = arr[l + i];
+        System.arraycopy(arr, l, L, 0, n1);
         for (int j = 0; j < n2; ++j)
             R[j] = arr[m + 1 + j];
 
@@ -89,7 +88,7 @@ public class DatabaseSortLogic {
 
     // Main function that sorts arr[l..r] using
     // merge()
-    void sort(int arr[], int l, int r)
+    private void sort(int[] arr, int l, int r)
     {
         if (l < r) {
             // Find the middle point
