@@ -6,3 +6,6 @@ Today I have read information about Spring Boot and I believe it might be a good
 
 Aug 6th, Friday
 Today I have learned more knowledge about Spring Boot. In Spring Boot we need dependence injection and set several XML files as our cold-update files. And also we need Spring Boot to design and build our RESTful APIs. I have thought about the APIs that we might need to apply in the future. We might need to getConsulations, getOrders, getUserInformation and etc. For building this we need to apply Gradle 4 and Spring Tool Suite(STS).
+
+Aug 7th, Saturday
+Today I learned how to use XML file to set Spring Boot Project. These characters include Parent, groupId, version, name, description, properties, dependencies, build, project xmlns, build, plugins, plugin, project. And in build.gradle we need to write codes of plugins, group, version, sourceCompatibility, repositories, dependencies, test.
