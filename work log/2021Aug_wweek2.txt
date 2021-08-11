@@ -2,6 +2,12 @@ Aug 9th, Monday
 Yiqing Liu:
 Joined the team, learned about the current progress. 3pm to 7pm had a meeting with the other members, worked out a general design of our product software and the company's website. I/O data types and APIs of the software need further discussion.
 
+Zixiang Wang:
+Had a discussion with Yiqing about the plans for the furture of our company. We are thinking about providing consulting services for individual customers and company customers so we might need an extra mechancal calculator deveploped by ourselves, since it is too expensive for us now to buy one.
+
 Aug 10th, Tuesday
 Yiqing Liu:
 Get familiar with Java Spring framework, several basic test cases runs successfully.
+
+Zixiang Wang:
+Wrote some codes in Spring Security LDAP module. It is used to protect the project in the web controller level.
