@@ -1,3 +1,7 @@
 Aug 9th, Monday
 Yiqing Liu:
 Joined the team, learned about the current progress. 3pm to 7pm had a meeting with the other members, worked out a general design of our product software and the company's website. I/O data types and APIs of the software need further discussion.
+
+Aug 10th, Tuesday
+Yiqing Liu:
+Get familiar with Java Spring framework, several basic test cases runs successfully.
