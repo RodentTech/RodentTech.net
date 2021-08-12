@@ -16,3 +16,5 @@ Aug 11th, Wednesday
 Yiqing Liu:
 Read materials about Spring MVC, we will use it to build our web app.
 
+Zixiang Wang:
+Learned knowledge about Spring MVC. We will use Spring MVC to build the basic structure of the project. Since Spring MVC can efficiently decouple different levels, it is necessary for us.
