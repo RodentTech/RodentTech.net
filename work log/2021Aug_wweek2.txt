@@ -11,3 +11,8 @@ Get familiar with Java Spring framework, several basic test cases runs successfu
 
 Zixiang Wang:
 Wrote some codes in Spring Security LDAP module. It is used to protect the project in the web controller level.
+
+Aug 11th, Wednesday
+Yiqing Liu:
+Read materials about Spring MVC, we will use it to build our web app.
+
