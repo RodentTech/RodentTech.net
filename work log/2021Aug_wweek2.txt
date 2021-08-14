@@ -30,4 +30,5 @@ Aug 13th, Friday
 Yiqing Liu:
 Implemented the map displays of statistics and location of data, this code need to be modified to OpenLayers.
 
-
+Zixiang Wang:
+Built an abstract model to extract useful information from massive user data and store them in memory if necessary using a util class Node.
