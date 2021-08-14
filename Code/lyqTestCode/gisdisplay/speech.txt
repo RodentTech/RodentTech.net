@@ -1,0 +1,4 @@
+地图组成与名词解释：https://lbs.amap.com/api/javascript-api/guide/abc/components
+AMap.Geolocation 定位插件，整合了浏览器定位、精确IP定位、sdk辅助定位多种手段
+AMap.Geocoder地址描述信息与地理坐标（经纬度）互相转换：getLocation==》，getAddress《==
+输入提示 AutoComplete

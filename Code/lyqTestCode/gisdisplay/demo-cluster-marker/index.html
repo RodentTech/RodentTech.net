@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Coronavirus Infection Live Update</title>
+ <meta name="description" content="Live updates of Coronavirus Infection data in China" />
+ <style>
+ body,
+ html {
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 100%;
+ overflow: hidden
+ }
+
+ p {
+ margin: 0
+ }
+
+ ul {
+ margin: 0;
+ padding: 0
+ }
+
+ li {
+ list-style-type: none
+ }
+
+ h3 {
+ font-size: 1.5em;
+ margin: .2em 0
+ }
+
+ img {
+ width: 100%
+ }
+
+ #map {
+ width: 100%;
+ height: 100%
+ }
+
+ #search {
+    width: calc(100% - 118px);
+    height: 24px;
+    margin-left: 125px;
+    margin-top: 12px;
+    padding: 0 9px;
+    font-size: 18px;
+    line-height: 24px;
+    border: none
+ }
+
+ #search:focus {
+ outline: 0
+ }
+
+ #result {
+ width: 100%;
+ padding: 0 9px;
+ background-color: #fff
+ }
+
+ .auto-item {
+ padding-left: 0;
+ padding-right: 0
+ }
+
+ .popup {
+ width: 240px;
+ font-size: 12px
+ }
+
+ header {
+ position: absolute;
+ top: 10px;
+ left: 10px;
+ width: calc(100% - 20px);
+ border-radius: 3px;
+ overflow: hidden;
+ z-index: 2000
+ }
+
+ .notice {
+ width: 240px;
+ font-size: 12px
+ }
+
+ strong {
+ font-size: 1.2em;
+ color: #f75c2f
+ }
+
+ .notice img {
+ margin: 10px 0
+ }
+
+ .amap-icon img,
+ .amap-marker-content img {
+ width: 25px;
+ height: 34px
+ }
+
+ .amap-info-close {
+ right: 5px !important
+ }
+
+ .search {
+ height: 48px;
+ background-color: #fff
+ }
+
+ .logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: auto;
+    padding-right: 0px;
+    border-right: 1px solid #999
+ }
+
+ .nav {
+ position: fixed;
+ z-index: 3000;
+ bottom: 60px;
+ width: 150px;
+ height: 60px;
+ padding: 0 30px;
+ border-radius: 60px;
+ background-color: #fff;
+ right: 10px;
+ bottom: 10px;
+ }
+
+ .nav li {
+ display: inline-block;
+ margin-left: 10px;
+ }
+
+ .nav a {
+ display: block;
+ font-size: 12px;
+ color: #333;
+ text-decoration: none
+ }
+
+ .nav img {
+ display: block;
+ width: auto;
+ height: 24px;
+ padding: 10px 0 2px 0;
+ margin: 0 auto
+ }
+
+ .nav span {
+ display: block;
+ text-align: center
+ }
+
+ .nav,
+ header {
+ box-shadow: 0 8px 16px 0 rgba(153, 153, 153, .2)
+ }
+
+ .amap-logo {
+ display: block !important
+ }
+ </style>
+</head>
+
+<body>
+    <header>
+        <section class="search">
+            <img class="logo" src="./images/fight.jpg" />
+            <input id="search" type="text" placeholder="Input your address, know about your neighborhood..." />
+        </section>
+        <section id="result"></section>
+    </header>
+    <main id="map"></main>
+    <ul class="nav">
+        <li>
+            <a href="#">
+            <img src="./images/service.png" />
+            <span>Statistics</span>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+            <img src="./images/service.png" />
+            <span>Outbreak distribution</span>
+            </a>
+        </li>
+    </ul>
+    <script
+ src="https://webapi.amap.com/maps?v=1.4.15&key=7d3c5bcb5fa4b13df8594bcb9b8b04ed&plugin=Map3D,AMap.Autocomplete,AMap.Geolocation,AMap.Geocoder,AMap.MarkerClusterer"></script>
+</body>
+<script>
+ // Creat map object
+ var map = new AMap.Map('map', {
+ zoom: 5,               //the greater the more general
+ center: [114.3457031300, 30.4486736800]
+ });
+ map.setMapStyle('amap://styles/7fc84fcd90c5c82c989cfb8e4f6a11bc');
+
+var cluster = null;
+var ncovData = [];
+var markers = [];
+
+ window.onload = function () {
+        fetch("https://assets.cbndata.org/2019-nCoV/data.json?t=" + (new Date).getTime()).then(function (res) {
+            return res.json()
+        }).then(function (result) {
+            var data = result.data;
+            ncovData = result.data
+            console.log(JSON.stringify(ncovData))
+            renderCluster(ncovData);
+        });
+    }
+
+    function renderCluster(points) {
+        for (var i = 0; i < points.length; i += 1) {
+            if (points[i]['longitude'] && points[i]['latitude']) {
+                markers.push(new AMap.Marker({
+                    position: [points[i]['longitude'] - 0, points[i]['latitude'] - 0],
+                    content: '<div style="background-color: hsla(180, 100%, 50%, 0.7); height: 24px; width: 24px; border: 1px solid hsl(180, 100%, 40%); border-radius: 12px; box-shadow: hsl(180, 100%, 50%) 0px 0px 1px;"></div>',
+                    offset: new AMap.Pixel(-15, -15)
+                }))
+            } else {
+                console.log(points[i].city)
+                //Address data without longitude and latitude information
+            }
+
+        }
+
+        addCluster();
+    }
+
+
+    function addCluster() {
+        var sts = [{
+            url: "https://a.amap.com/jsapi_demos/static/images/blue.png",
+            size: new AMap.Size(32, 32),
+            offset: new AMap.Pixel(-16, -16)
+        }, {
+            url: "https://a.amap.com/jsapi_demos/static/images/green.png",
+            size: new AMap.Size(32, 32),
+            offset: new AMap.Pixel(-16, -16)
+        }, {
+            url: "https://a.amap.com/jsapi_demos/static/images/orange.png",
+            size: new AMap.Size(36, 36),
+            offset: new AMap.Pixel(-18, -18)
+        }, {
+            url: "https://a.amap.com/jsapi_demos/static/images/red.png",
+            size: new AMap.Size(48, 48),
+            offset: new AMap.Pixel(-24, -24)
+        }, {
+            url: "https://a.amap.com/jsapi_demos/static/images/darkRed.png",
+            size: new AMap.Size(48, 48),
+            offset: new AMap.Pixel(-24, -24)
+        }];
+
+        cluster = new AMap.MarkerClusterer(map, markers, {
+            styles: sts,
+            gridSize: 80    //Coefficient, recommend 80, greater if want to display less marker
+        });
+    }
+</script>
+
+</html>

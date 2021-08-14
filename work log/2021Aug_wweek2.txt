@@ -19,6 +19,15 @@ Read materials about Spring MVC, we will use it to build our web app.
 Zixiang Wang:
 Learned knowledge about Spring MVC. We will use Spring MVC to build the basic structure of the project. Since Spring MVC can efficiently decouple different levels, it is necessary for us.
 
-Aug 12th, Friday
+Aug 12th, Thursday
 Zixiang Wang:
 Learned knowledge about RSA and AES, and how to generate private keys and public keys so we can protect the safety between the front end and the back end.
+
+Yiqing Liu:
+Reading manuals of several gis front-end tool, prepare the documentation of comparing between them. In our next general meeting, We will use this document to choose one of them to write the block in our website to display user's location in map.
+
+Aug 13th, Friday
+Yiqing Liu:
+Implemented the map displays of statistics and location of data, this code need to be modified to OpenLayers.
+
+
