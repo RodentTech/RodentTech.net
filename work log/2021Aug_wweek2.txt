@@ -36,3 +36,6 @@ Built an abstract model to extract useful information from massive user data and
 Aug 15th, Sunday
 Yiqing Liu:
 Convert map display to openlayers implementation, map display looks good but data statistics diaplay and zooming still need to be fixed.
+
+Zixiang Wang:
+Tried to use HTML5 to build a basic website so we might use it in the future to implement the AJAX.
