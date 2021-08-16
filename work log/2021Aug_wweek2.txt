@@ -32,3 +32,7 @@ Implemented the map displays of statistics and location of data, this code need 
 
 Zixiang Wang:
 Built an abstract model to extract useful information from massive user data and store them in memory if necessary using a util class Node.
+
+Aug 15th, Sunday
+Yiqing Liu:
+Convert map display to openlayers implementation, map display looks good but data statistics diaplay and zooming still need to be fixed.
