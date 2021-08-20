@@ -44,3 +44,7 @@ Aug 17th, Tuesday
 Yiqing Liu:
 Finished OpenLayers modification to map display.
 
+Aug 19th, Thursday
+Yiqing Liu:
+Did some basic SPring Boot framework tests.
+
