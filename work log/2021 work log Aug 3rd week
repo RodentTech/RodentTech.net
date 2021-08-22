@@ -1,11 +1,3 @@
-
-Aug 15th, Sunday
-Yiqing Liu:
-Convert map display to openlayers implementation, map display looks good but data statistics diaplay and zooming still need to be fixed.
-
-Zixiang Wang:
-Tried to use HTML5 to build a basic website so we might use it in the future to implement the AJAX.
-
 Aug 17th, Tuesday
 Yiqing Liu:
 Finished OpenLayers modification to map display.
