@@ -8,7 +8,7 @@ Did some basic SPring Boot framework tests.
 
 Aug 20th, Friday
 Yiqing Liu:
-Analyzed several well-known tech company's websites' and user registration systems' design, made a draft design of our company's website.
+With Zixiang Wang and Tianrui Chai analyzed the design of several well-known tech company's websites and user registration systems, made a draft design of our company's website.
 
 Aug 21st, Saturday
 Yiqing Liu:
