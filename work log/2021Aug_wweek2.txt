@@ -40,5 +40,16 @@ Convert map display to openlayers implementation, map display looks good but dat
 Zixiang Wang:
 Tried to use HTML5 to build a basic website so we might use it in the future to implement the AJAX.
 
+Aug 19th, Thursday
+Yiqing Liu:
+Did some basic SPring Boot framework tests.
+
+Aug 20th, Friday
+Yiqing Liu:
+Analyzed several well-known tech company's websites' and user registration systems' design, made a draft design of our company's website.
+
+Aug 21st, Saturday
+Yiqing Liu:
+Successfully implemented '/' and '/registation' front-end and back-end interaction.
 
 
