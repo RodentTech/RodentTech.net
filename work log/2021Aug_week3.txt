@@ -1,15 +1,27 @@
+Aug 16th, Monday
+Tianrui Chai:
+Joined the team and started the first day of work. Reviewed the idea of company's website and the computational app. Strated to design the logic of the online application.
+
 Aug 17th, Tuesday
 Yiqing Liu:
 Finished OpenLayers modification to map display.
+Tianrui Chai:
+Decided to implement finite element analysis feature on the app. Reviewed some basis finite element analysis knowledges.
 
 Aug 19th, Thursday
 Yiqing Liu:
 Did some basic SPring Boot framework tests.
+Tianrui Chai:
+Started to design finite element analysis feature on a straight bar in 2D dimension.
 
 Aug 20th, Friday
 Yiqing Liu:
 With Zixiang Wang and Tianrui Chai analyzed the design of several well-known tech company's websites and user registration systems, made a draft design of our company's website.
+Tianrui Chai:
+Design finite element analysis feature on a straight bar in 2D dimension with different cross-section shape.
 
 Aug 21st, Saturday
 Yiqing Liu:
 Successfully implemented '/' and '/registation' front-end and back-end interaction.
+Tianrui Chai:
+Keeped disigning finite element analysis feature on a straight bar in 2D dimension with different cross-section shape.
