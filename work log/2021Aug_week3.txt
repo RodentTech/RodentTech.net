@@ -10,7 +10,7 @@ Decided to implement finite element analysis feature on the app. Reviewed some b
 
 Aug 19th, Thursday
 Yiqing Liu:
-Did some basic SPring Boot framework tests.
+Did some basic Spring Boot framework tests.
 Tianrui Chai:
 Started to design finite element analysis feature on a straight bar in 2D dimension.
 
@@ -18,7 +18,7 @@ Aug 20th, Friday
 Yiqing Liu:
 With Zixiang Wang and Tianrui Chai analyzed the design of several well-known tech company's websites and user registration systems, made a draft design of our company's website.
 Tianrui Chai:
-Design finite element analysis feature on a straight bar in 2D dimension with different cross-section shape.
+Discuss website design with other members. Design finite element analysis feature on a straight bar in 2D dimension with different cross-section shape.
 
 Aug 21st, Saturday
 Yiqing Liu:
@@ -28,4 +28,4 @@ Keeped disigning finite element analysis feature on a straight bar in 2D dimensi
 
 Aug 22nd, Sunday
 Yiqing Liu:
-Studied several ways of managing user info and tested on several rudimentary test cases , further discussion has to be made on which one we chose.
+Studied several ways of keeping user info safe and tested on several rudimentary test cases , further discussion has to be made on which one we chose.
