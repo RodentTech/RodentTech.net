@@ -1,2 +1,3 @@
 Aug 23rd, Monday
-
+Yiqing Liu:
+Implenting the database to store user registration information, test passed on a hashtable version, bugs need to be fixed on database.
