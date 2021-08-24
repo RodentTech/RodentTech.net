@@ -25,3 +25,7 @@ Yiqing Liu:
 Successfully implemented '/' and '/registation' front-end and back-end interaction.
 Tianrui Chai:
 Keeped disigning finite element analysis feature on a straight bar in 2D dimension with different cross-section shape.
+
+Aug 22nd, Sunday
+Yiqing Liu:
+Studied several ways of managing user info and tested on several rudimentary test cases , further discussion has to be made on which one we chose.
