@@ -1,3 +1,11 @@
 Aug 23rd, Monday
 Yiqing Liu:
 Implenting the database to store user registration information, test passed on a hashtable version, bugs need to be fixed on database.
+
+Aug 24th, Tuesday
+Yiqing Liu:
+Converting the HashMap impl of database to MongoDB.
+
+Aug 25th, Wednesday
+Yiqing Liu:
+Successfully implemented the controller for users to update information stores in database.
