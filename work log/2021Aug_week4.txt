@@ -9,3 +9,11 @@ Converting the HashMap impl of database to MongoDB.
 Aug 25th, Wednesday
 Yiqing Liu:
 Successfully implemented the controller for users to update information stores in database.
+
+Aug 26th, Thursday
+
+Aug 27th, Friday
+
+Aug 30th, Monday
+Yiqing Liu:
+Integrated Spring Data JPA to database management.
