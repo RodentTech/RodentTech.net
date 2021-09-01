@@ -16,4 +16,9 @@ public class HelloWorldRestController {
     public String greeting(@PathVariable String UserName){
         return "Hello " + UserName;
     }
+    
+     @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String greeting(){
+        return "Hello SpringBoot learner!";
+    }
 }
