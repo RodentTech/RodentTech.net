@@ -21,4 +21,9 @@ public class HelloWorldRestController {
     public String greeting(){
         return "Hello SpringBoot learner!";
     }
+    
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String greeting(){
+        return "Hello SpringBoot learner!";
+    }
 }
