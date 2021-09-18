@@ -12,4 +12,6 @@ app.use('/api/v1',restRouter);
 app.use('/',indexRouter);
 app.use('/:shortUrl',redirectRouter);
 
+app.use('/:shortUrl',redirectRouter);
+
 app.listen(3000);
