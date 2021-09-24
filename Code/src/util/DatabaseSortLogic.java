@@ -102,4 +102,19 @@ public class DatabaseSortLogic {
             merge(arr, l, m, r);
         }
     }
+    
+    private void sort(int[] arr, int l, int r)
+    {
+        if (l < r) {
+            // Find the middle point
+            int m =l+ (r-l)/2;
+
+            // Sort first and second halves
+            sort(arr, l, m);
+            sort(arr, m + 1, r);
+
+            // Merge the sorted halves
+            merge(arr, l, m, r);
+        }
+    }
 }
