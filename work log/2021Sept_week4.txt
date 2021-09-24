@@ -1,3 +1,8 @@
 09/20/2021 Monday
 Yiqing Liu:
 Read documents for RabbitMQ, wrote some RabbitMQ helloworld examples.
+
+09/23/2021 Thursday
+Yiqing Liu:
+9am-12pm, 2pm-6pm, 7pm-12:04am
+Implemented data preprocessing and RabbitMQ queueing of message.
